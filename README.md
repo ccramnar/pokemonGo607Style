@@ -1,6 +1,6 @@
 # pokemonGo607Style
 
-Based on my apartment right now. It is a text adventure game where there are 4 characters: 
+Based on my apartment right now. It is a text adventure game where there are 4 other characters: 
 
 1) Cy - starter of the craze, the reason everyone in the apartment is playing pokemonGo. 
 Buffs: Sly 
@@ -11,6 +11,7 @@ Buffs: Gym Knowledge and Raids
 4) Reeve - Pokemon oldie. Knows the most about pokemon vs pokemon
 Buffs: Pokemon Knowledge
 
+The main character is you! You made the mistake of walking into 607!
 Player Stats:
 Level:
 Sly:
