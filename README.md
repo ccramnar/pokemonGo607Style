@@ -24,5 +24,8 @@ Pokemon knowldge:
 Pokeballs:
 Pokemon:
 
+Implemented: Start, Quit
+Working On: Knocking on doors
+
 
 
