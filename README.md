@@ -11,4 +11,12 @@ Buffs: Gym Knowledge and Raids
 4) Reeve - Pokemon oldie. Knows the most about pokemon vs pokemon
 Buffs: Pokemon Knowledge
 
+Player Stats:
+Level:
+Sly:
+Athleticism:
+Gym knowledge and raids:
+Pokemon knowldge:
+
+
 
