@@ -1,0 +1,1 @@
+extern int parseInput(char *input);
