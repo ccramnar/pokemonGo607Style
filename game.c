@@ -2,6 +2,7 @@
 #include "location.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 const struct Location locations[] = {
     {"common room", "607 common room"},
@@ -36,12 +37,13 @@ char * gameLocation(struct Game *game) {
     return game->currentLocation;
 }
 
-static int gotoRoom(struct Game * game, char roomName[100])
+int gotoRoom(struct Game * game, char roomName[100])
 {
     int returnCode = 0; //0 if no room was found, 1 otherwise for success
-    for (unsigned long i = 0; i < sizeof(locations); ++i) {
+    for (unsigned long i = 0; i < 8; ++i) {
+       
         if (strcmp(locations[i].owner,roomName) && strcmp(locations[i].type, "bedroom")) {
-           game->currentLocation = roomName;
+           game->currentLocation = strtok(roomName, "\n");;
             returnCode = 1;
         }
     }

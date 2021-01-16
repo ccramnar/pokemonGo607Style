@@ -24,17 +24,16 @@ int parseInput(char *input)
             gameEnd(game);
             return 0;
         }
-        else if (strcmp(input, "knock on a door\n") == 0)
+        else if (strcmp(input, "knock\n") == 0)
         {
             printf("Whose door?\n");
             char door[100];
             fgets(door, sizeof door, stdin);
-            /*
             if (gotoRoom(game, door)) {
                 printf("You are in %s's room", door);
             } else {
                 printf("That room does not exist");
-            }*/
+            }
         }
         else if (strcmp(input, "lets pokego to a raid\n") == 0)
         {
