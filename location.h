@@ -1,1 +1,5 @@
-static int gotoRoom(char * roomName);
+struct Location
+{
+    const char *type;
+    const char *owner;
+};

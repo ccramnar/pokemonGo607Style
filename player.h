@@ -1,4 +1,3 @@
-struct player;
-
-struct player *playerCreate(char * playerName);
-void playerDestroy(struct player *pr);
+struct Player;
+struct Player *playerCreate(char * playerName);
+void playerDestroy(struct Player *pr);

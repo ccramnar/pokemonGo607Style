@@ -2,19 +2,20 @@
 #include "assert.h"
 #include "player.h"
 
-struct player
+struct Player
 {
     const char *name;
     char *location;
+    char items[10];
 };
 
-struct player *playerCreate(char * playerName)
+struct Player *playerCreate(char * playerName)
 {
-    struct player *pr = malloc(sizeof(struct player));
+    struct Player *pr = malloc(sizeof(struct Player));
     pr->name = playerName;
     return pr;
 }
-void playerDestroy(struct player *pr)
+void playerDestroy(struct Player *pr)
 {
     assert(pr);
     free(pr);

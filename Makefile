@@ -1,7 +1,7 @@
 CXX = g++
 CXXFLAGS = -std=c++14 -Wall -MMD -Werror=vla
 EXEC = pokego
-OBJECTS = main.o input.o
+OBJECTS = main.o input.o game.o location.o player.o
  
 DEPENDS = ${OBJECTS:.o=.d}
 
