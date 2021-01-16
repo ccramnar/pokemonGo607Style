@@ -1,13 +1,14 @@
 #include "location.h"
 #include <stdio.h>
 
-struct location
+struct Location
 {
     const char *type;
     const char *owner;
 };
 
-const struct location locations[] = {
+const struct Location locations[] = {
+    {"common room", "607 common room"},
     {"bedroom", "Cy"},
     {"bedroom", "Laurz"},
     {"bedroom", "Reeve"},
